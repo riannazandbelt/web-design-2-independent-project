@@ -10,7 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font-family: Raleway, sans-serif;
+  font-family: Lato, sans-serif;
 }
 
 *, *::before, *::after {
@@ -27,7 +27,6 @@ img {
 
 header {
   background-color: #313131;
-  font-family: Lato, sans-serif;
 }
 
 .logo {
@@ -93,6 +92,55 @@ li a {
 .content h2,
 .content p {
   margin: .5rem 1rem;
+  font-family: Raleway, sans-serif;
+}
+
+.content h2 {
+  color: #FC496C;
+}
+
+.chef-img {
+  position: relative;
+}
+
+.chef-name {
+  position: absolute;
+  z-index: 2;
+  background-color: #00BBB8;
+  color: #fff;
+  padding: 1rem;
+  left: 20%;
+  transform: translateX(-20%);
+}
+
+.name {
+  font-weight: 600;
+}
+
+.david {
+  position: relative;
+  bottom: 50px;
+}
+
+.wolfgang {
+  position: relative;
+  bottom: 50px;
+}
+
+.samin {
+  position: relative;
+  bottom: 50px;
+}
+
+footer {
+  background-color: #313131;
+  color: #fff;
+  padding: 1rem;
+}
+
+footer img {
+  width: 60px;
+  padding-left: 1rem;
 }
 
 @media only screen and (min-width: 60em) {
