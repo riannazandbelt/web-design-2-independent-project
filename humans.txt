@@ -5,6 +5,22 @@
   https://unsplash.com/photos/Uck7TR7XYFo
 
 
-  - “Skewers” © Ella Ollson, from Pexels
-    Used under CC BY
-    https://www.pexels.com/photo/top-view-photo-of-skewers-3026805/
+- “Skewers” © Ella Ollson, from Pexels
+  Used under CC BY
+  https://www.pexels.com/photo/top-view-photo-of-skewers-3026805/
+
+- “Facebook 4” ©, from iconmonstr
+  Used under CC BY
+  https://iconmonstr.com/facebook-4-svg/
+
+- “Twitter 4” ©, from iconmonstr
+  Used under CC BY
+  https://iconmonstr.com/twitter-4-svg/
+
+- “Instagram 14” ©, from iconmonstr
+  Used under CC BY
+  https://iconmonstr.com/instagram-14-svg/
+
+- “Pinterest 1” ©, from iconmonstr
+  Used under CC BY
+  https://iconmonstr.com/pinterest-1-svg/
