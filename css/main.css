@@ -10,7 +10,6 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  line-height: 1.5;
   font-family: Raleway, sans-serif;
 }
 
@@ -60,6 +59,7 @@ li a {
   padding: .5rem 0;
 }
 
+
 .feast-banner {
   display: none;
 }
@@ -78,6 +78,34 @@ li a {
   border-radius: 25px;
 }
 
+.banner h2 {
+  margin-top: 0;
+}
+
+.banner p {
+  margin-bottom: 2rem;
+}
+
 .banner-text a:hover {
   background-color: #C93B57;
+}
+
+.content h2,
+.content p {
+  margin: .5rem 1rem;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .feast-banner {
+    display: block;
+    position: absolute;
+  }
+
+  .banner-text {
+    background: none;
+    position: relative;
+    padding: 10rem 3rem;
+  }
+
 }
