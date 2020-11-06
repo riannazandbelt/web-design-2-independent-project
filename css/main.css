@@ -41,11 +41,15 @@ nav a {
   text-align: center;
 }
 
+nav .current {
+  background-color: #FC496C;
+}
+
 nav a:hover {
   background-color: #FC496C;
 }
 
-ul {
+.nav {
   list-style-type: none;
   padding-left: 0;
   padding-bottom: 1rem;
@@ -66,15 +70,23 @@ li a {
 .banner-text {
   color: #fff;
   background-color: #00BBB8;
-  padding: 3rem 1rem;
+  padding: 3rem 0rem;
 }
 
+.buy,
 .banner-text a {
   text-decoration: none;
   color: #fff;
   background-color: #FC496C;
-  padding: 1rem;
   border-radius: 25px;
+}
+
+.buy {
+  padding: .75rem 1rem;
+}
+
+.banner-text a{
+  padding: 1rem;
 }
 
 .banner h2 {
@@ -85,6 +97,7 @@ li a {
   margin-bottom: 2rem;
 }
 
+.buy:hover,
 .banner-text a:hover {
   background-color: #C93B57;
 }
@@ -143,6 +156,16 @@ footer img {
   padding-left: 1rem;
 }
 
+h1,
+h2,
+p,
+.buy,
+.buy-tickets {
+  margin-left: 1rem;
+}
+.pass-info {
+  margin-left: 1rem;
+}
 @media only screen and (min-width: 60em) {
 
   .feast-banner {
