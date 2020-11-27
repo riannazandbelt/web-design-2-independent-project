@@ -157,7 +157,8 @@ p {
 
 .chef-1,
 .chef-2,
-.chef-3 {
+.chef-3,
+.chef-4 {
   position: relative;
   bottom: 50px;
 }
@@ -354,13 +355,6 @@ nav .current {
   margin-right: 2rem;
 }
 
-.card-1,
-.card-2,
-.card-3 {
-  margin-left: 5rem;
-  margin-right: 5rem;
-}
-
 .donuts {
   object-fit: cover;
   height: 300px;
@@ -441,7 +435,6 @@ nav li a {
   grid-row: 1;
 }
 
-
 .about-us {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -478,7 +471,7 @@ nav li a {
 .speakers {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
   grid-gap: 1rem;
   grid-template-areas:
   ". c c c c ."
@@ -491,6 +484,10 @@ nav li a {
   grid-row: 2;
   margin: 0;
   grid-area: c;
+}
+
+.chef-name {
+  padding: .25rem 0;
 }
 
 .chef-david {
@@ -511,28 +508,41 @@ nav li a {
   grid-area: f;
 }
 
+.chef-dorothy {
+  grid-column: 5;
+  grid-row: 3;
+  grid-area: g;
+}
+
+
+.chef-1,
+.chef-2,
+.chef-3,
+.chef-4 {
+  bottom: 20px;
+}
+
 .tickets {
   display: flex;
   padding: 2rem;
 }
 
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  padding-bottom: 2rem;
+}
+
 .buy {
   position: static;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  transform: none;
   width: 70%;
   text-align: center;
-  transform: none;
-}
+  align-self: center;
 
-.card {
-  margin: 0;
-}
-
-.card-1,
-.card-2 {
-  margin-right: 1rem;
 }
 
 .celebrate,
@@ -544,6 +554,42 @@ nav li a {
 
 .sponsor-img {
   margin-bottom: 2rem;
+}
+
+footer {
+  display: grid;
+  padding: 0;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.hours {
+  padding-left: 1rem;
+  grid-column: 1;
+  grid-row: 1;
+  text-align: left;
+}
+
+.address {
+  padding-right: 1rem;
+  grid-column: 6;
+  grid-row: 1;
+  text-align: right;
+}
+
+.last {
+  margin-bottom: 0;
+}
+
+.social-media {
+  grid-column: 6;
+  grid-row: 2;
+}
+
+.social-media img {
+  padding-left: .5rem;
+  width: 20%;
 }
 
 }
