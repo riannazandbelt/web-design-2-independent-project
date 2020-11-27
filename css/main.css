@@ -413,15 +413,93 @@ nav li a {
   border-radius: 25px;
 }
 
+.hero-banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .feast-banner {
   display: block;
-  position: absolute;
+  grid-column: 2;
+  grid-row: 1;
+  object-fit: cover;
+  max-height: 500px;
+}
+
+.banner-text h1,
+.banner-text p {
+  padding-left: 0;
+}
+
+.banner-text a {
+  margin-left: 0;
 }
 
 .banner-text {
-  margin-right: 40%;
-  position: relative;
-  padding: 2rem 3rem;
+  padding: 4rem 3rem 2rem 3rem;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-row: 1fr 1fr 1fr 1fr;
+  column-gap: 1rem;
+  grid-template-areas:
+  ". a a b b ."
+  ". c . . . ."
+  ". d e f g ."
+}
+
+.about-us-img {
+  margin-top: 6rem;
+  grid-column: 2 / 3;
+  grid-row: 1;
+  grid-area: a;
+}
+
+.about-us-text {
+  grid-column: 4 / 5;
+  grid-row: 1;
+  grid-area: b;
+}
+
+.about-us h2 {
+  margin-top: 2rem;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: left;
+}
+
+.about-us p {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.speakers h2 {
+  grid-column: 2;
+  grid-row: 2;
+  grid-area: c;
+}
+
+.chef-david {
+  grid-column: 2;
+  grid-row: 3;
+  grid-area: d;
+}
+
+.chef-joseph {
+  grid-column: 3;
+  grid-row: 3;
+  grid-area: e;
+}
+
+.chef-maria {
+  grid-column: 4;
+  grid-row: 3;
+  grid-area: f;
 }
 
 .tickets {
@@ -459,4 +537,5 @@ nav li a {
   display: flex;
   margin-bottom: 2rem;
 }
+
 }
