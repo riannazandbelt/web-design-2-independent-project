@@ -84,7 +84,7 @@ li a {
 }
 
 .banner-text {
-  color: #fff;
+  color: #000;
   background-color: #00BBB8;
   padding: 3rem 1rem;
 }
@@ -92,7 +92,7 @@ li a {
 .buy,
 .banner-text a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
   background-color: #FC496C;
   border-radius: 25px;
   transition: all .3s ease;
@@ -145,7 +145,7 @@ p {
   position: absolute;
   z-index: 2;
   background-color: #00BBB8;
-  color: #fff;
+  color: #313131;
   padding: 1rem;
   left: 20%;
   transform: translateX(-20%);
