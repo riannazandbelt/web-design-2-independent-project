@@ -438,8 +438,7 @@ footer p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     column-gap: 1rem;
-    grid-template-areas:
-    ". a a b b .";
+    grid-template-areas: ". a a b b .";
   }
 
   .about-us-img {
